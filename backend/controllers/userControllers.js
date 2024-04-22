@@ -43,8 +43,8 @@ const importUser = async (req, res) => {
         console.log(userData);
         
         for (const entry of userData) {
-            const { name, rollno, prn, password } = entry;
-            const newUser = new user({ name, rollno, prn, password });
+            const { name, rollno, prn, password,examid } = entry;
+            const newUser = new user({ name, rollno, prn, password,examid });
             await newUser.save();
         }
 

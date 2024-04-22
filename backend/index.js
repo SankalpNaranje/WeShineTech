@@ -23,6 +23,7 @@ app.use('/api/userRoute',require('./routes/userRoute'));
 app.use('/api/ExamRoute',require('./routes/ExamRoute'));
 app.use('/api/paperRoute',require('./routes/paperRoute'));
 
+app.use('/api/SyncRoute',require('./routes/SyncRoute'));
 
 
 app.listen(port, () => {

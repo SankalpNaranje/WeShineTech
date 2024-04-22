@@ -19,7 +19,15 @@ const UserSchema = new Schema({
         type: String,
         required: true
     },
-    
+    isactive:{
+        type:Boolean,
+        default:true,
+        required:true
+    },
+    examid:{
+        type:String,
+        required:true
+    }
   });
   const User = mongoose.model('user', UserSchema);
   module.exports = User;

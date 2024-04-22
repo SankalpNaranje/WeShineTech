@@ -20,8 +20,9 @@ const ExamSchema = new Schema({
         required: true
     },
     isactive:{
-        type: String,
-        required: true
+        type: Boolean,
+        required: true,
+        default:true
     },
     
   });
