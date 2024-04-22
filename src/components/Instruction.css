@@ -1,0 +1,59 @@
+h1{
+    font-size: 2.2rem;
+  }
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  ul, ol {
+    margin-left: 1.5rem;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  .instruction-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .exam-instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.important_information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.instructions1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

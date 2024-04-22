@@ -1,0 +1,14 @@
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    background-color: #005059;
+}
+.container-fluid{
+    background-color: #005059;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

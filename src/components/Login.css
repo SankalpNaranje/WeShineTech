@@ -1,0 +1,23 @@
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loginInfo{
+    background-color: #005059;
+    width: 40%;
+    border-radius: 20px;
+    color: white;
+
+}
+.dashboardlogin{
+    background-color: #bea150;
+    border-radius: 20px 20px 0px 0px;
+    padding: 8px;
+    color: white;
+}
+.loginForm{
+    padding: 20px;
+}
